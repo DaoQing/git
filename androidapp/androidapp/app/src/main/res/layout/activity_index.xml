@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.ciyuan.dimera.androidapp.activity.IndexActivity">
+
+    <!--&lt;!&ndash;先注释&ndash;&gt;-->
+    <!--<include layout="@layout/top" />-->
+
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/id_content"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1">-->
+    <!--</FrameLayout>-->
+
+    <com.ciyuan.dimera.androidapp.view.DisHorizontalViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.ciyuan.dimera.androidapp.view.DisHorizontalViewPager>
+
+    <!--<include layout="@layout/bottom_common" />-->
+    <!--<Button-->
+    <!--android:id="@+id/login"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="登录"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/camera"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="相机"/>-->
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/tab_bottom"
+            android:textColor="@drawable/text_tab_bg"
+            android:drawableTop="@drawable/tab_home_bg"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_circle"
+            style="@style/tab_bottom"
+            android:textColor="@drawable/text_tab_bg"
+            android:drawableTop="@drawable/tab_circle_bg"
+            android:text="圈子" />
+
+        <RadioButton
+            android:id="@+id/rb_camera"
+            style="@style/tab_bottom"
+            android:drawableTop="@drawable/icon_camera" />
+
+        <RadioButton
+            android:id="@+id/rb_msg"
+            style="@style/tab_bottom"
+            android:textColor="@drawable/text_tab_bg"
+            android:drawableTop="@drawable/tab_message_bg"
+            android:text="消息" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/tab_bottom"
+            android:textColor="@drawable/text_tab_bg"
+            android:drawableTop="@drawable/tab_me_bg"
+            android:text="我的" />
+    </RadioGroup>
+</LinearLayout>

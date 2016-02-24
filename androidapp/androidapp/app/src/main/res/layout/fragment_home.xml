@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/home_container"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.ciyuan.dimera.androidapp.view.PullToRefreshStaggeredGridView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/home_pull_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0F0F0"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:column_count="2"
+        app:item_margin="8dp"
+        ptr:ptrScrollingWhileRefreshingEnabled="true"/>
+</LinearLayout>

@@ -1,0 +1,89 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    android:fitsSystemWindows="true">
+
+        <com.ciyuan.dimera.androidapp.view.ClearEditText
+            android:drawableRight="@drawable/delete_icon_32"
+            android:layout_width="match_parent"
+            android:id="@+id/etNickname"
+            android:inputType="text"
+            android:layout_height="45dip"
+            android:hint="取一个昵称"
+            android:singleLine="true"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"/>
+
+         <LinearLayout
+             android:layout_width="0px"
+             android:layout_height="1dip"/>
+
+        <com.ciyuan.dimera.androidapp.view.ClearEditText
+            android:drawableRight="@drawable/delete_icon_32"
+            android:layout_height="45dip"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:id="@+id/etPassword"
+            android:inputType="textPassword"
+            android:hint="设置一遍密码，最少6位数"
+            android:background="#FFFFFF" />
+
+         <LinearLayout
+             android:layout_width="0px"
+             android:layout_height="1dip"/>
+
+        <com.ciyuan.dimera.androidapp.view.ClearEditText
+            android:drawableRight="@drawable/delete_icon_32"
+            android:layout_height="45dip"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:id="@+id/etRepassword"
+            android:inputType="textPassword"
+            android:hint="确认一遍你的密码"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="完成"
+            android:id="@+id/btRegister"
+            android:textSize="22sp"
+            android:textColor="#FFFFFFFF"
+            android:layout_height="45dip"
+            android:background="@drawable/login_button"
+            android:layout_marginBottom="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cbAgreement"
+                    android:text="我已阅读并同意"
+                    android:checked="true"
+                    android:textColor="#696969"
+                    android:textSize="18sp"
+                    style="@style/CustomCheckboxTheme"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/tvAgreementLink"
+                    android:text="《次元时代用户协议》"
+                    android:layout_height="wrap_content"
+                    android:textColor="#00DDAA"
+                    android:textSize="18sp"
+                    />
+
+        </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="#f5f5f5"
+         ></LinearLayout>
+ </LinearLayout>
+

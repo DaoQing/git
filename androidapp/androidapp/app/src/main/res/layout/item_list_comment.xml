@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_comment_user_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/home_hot_comment_avatar"/>
+
+        <TextView
+            android:id="@+id/tv_comment_user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_comment_user_avatar"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="Orlando"
+            android:textColor="@color/user_nickname"/>
+
+        <TextView
+            android:id="@+id/tv_comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="12月1日"
+            android:textColor="@color/publish_time"
+            android:layout_marginRight="8dp"
+            android:textSize="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:typeface="serif"
+        android:lineSpacingExtra="1.5dp"
+        android:textColor="@color/comment_content"
+        android:text="次元时代次元时代次元时代次元时代lalalalalalala......"/>
+
+</LinearLayout>

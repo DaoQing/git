@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <com.ciyuan.dimera.androidapp.view.ClearEditText
+        android:layout_width="match_parent"
+        android:id="@+id/etPassword"
+        android:singleLine="true"
+        android:background="#ffffff"
+        android:layout_height="45dip"
+        android:hint="设置一个密码，最少6位数"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="1dip"/>
+
+    <com.ciyuan.dimera.androidapp.view.ClearEditText
+        android:layout_width="match_parent"
+        android:id="@+id/etRepassword"
+        android:singleLine="true"
+        android:background="#ffffff"
+        android:layout_height="45dip"
+        android:hint="确认一遍你的密码"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:text="重置"
+        android:id="@+id/btReset"
+        android:textSize="22sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="45dip"
+        android:background="@drawable/login_button"/>
+
+</LinearLayout>

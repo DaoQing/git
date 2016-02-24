@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:background="#D3D3D3"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/img_delete_content"/>
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:background="@drawable/et_circle_bg_shape"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:typeface="serif"
+        android:paddingLeft="3dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/submit_comment"
+        android:background="@drawable/shape_bt_small_yellow_bg"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="5dp"
+        android:text="提交"/>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- 轮播图 -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/item_home_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+        </android.support.v4.view.ViewPager>
+
+        <!-- 指针容器 -->
+
+        <LinearLayout
+            android:id="@+id/item_home_point_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/item_home_viewPager"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rg_shape_bg"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/home_btn_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rb_left_selector"
+            android:gravity="center"
+            android:text="热门图片"
+            android:textColor="@drawable/text_home_rb_bg"/>
+
+        <Button
+            android:id="@+id/home_btn_model"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rb_right_selector"
+            android:gravity="center"
+            android:text="最新模型"
+            android:textColor="@drawable/text_home_rb_bg"/>
+    </LinearLayout>
+</LinearLayout>

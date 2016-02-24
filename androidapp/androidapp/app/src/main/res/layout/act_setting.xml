@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/top_title_common"/>
+
+    <TextView
+        style="@style/text_setting"
+        android:text="更改密码">
+    </TextView>
+    .
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"/>
+    <TextView
+        style="@style/text_setting"
+        android:text="清除缓存">
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"/>
+    <TextView
+        style="@style/text_setting"
+        android:text="检查更新">
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"/>
+
+    <Button
+        android:id="@+id/bt_logout"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_square_yellow_bg"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#EE6556"
+        android:text="退出登录"/>
+</LinearLayout>

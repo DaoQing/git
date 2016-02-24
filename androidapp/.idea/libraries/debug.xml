@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/classes-a6d39a2f9c78147e10023bd7ece0a40ffb73d007.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-2.6.2-0d3bdbae1b340ff2766c5942d05d6a9c4a20db93.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/ShareSDK-Alipay-2.6.2-72a5c0616bde385bb0a6d6ebe46327d7015f2e98.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/classes-1ce5d18eb90be31d87be3b42805bae9dbb96cf4c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Core-2.6.2-e37bd5e3b20baf1715f1ae813039bd73780c4a13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/gson-2.2.1-a1e1c64603bd3aad54240fb0bbefdd78a3a94a37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/SMSSDK-1.3.1-120e4ed72c9a47f92010211727b6166cfef97861.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/httpclient-android-4.3.5.1-00b4095678f120bab2bc9819226222aac68e67a3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/MobLogCollector-1dd753589a2fdb07fe3016d74a18663046828cbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/volley_base-41a4f92cce225dfe8e30959df3c327e7cbcc2081.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/httpmime-4.3.6-e6ddf7c31faf03a5b3a918f4eee842d600d7249b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/MobTools-3749958fe3ac542d3a48b46da49d0ea1c1c85127.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/classes-993964c53b265497a511792830e740c2722978d1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/ShareSDK-SinaWeibo-2.6.2-40645a835aa83e41bf86a0ca8a4ce8d1e76c79ed.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/classes-3336878bb7e0832e9f80f5a2dbddda34e29d14f7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/ShareSDK-Core-2.6.2-0a444f5562ed1d5de005e546256d6597242005e4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/Rong_IMKit_v2_3_4-7c2ab35483128593de9ed38c9b3595600232df20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Moments-2.6.2-92a261f8469b0b8e0901c5809a6aefe6d1dcfcd0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-7ba4a2ae0a418565291eaee2d60738290cb6a9f7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/nineoldandroids-f5280606444f227ff7658bf7b6e0616edb3dbc43.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/ShareSDK-Email-2.6.2-a71274e764776e3fc033ea9e79f24ee9936c0861.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/xUtils-2.6.14-6d495e2f15f3c9ac1e04a66291920138a471e505.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/ShareSDK-QQ-2.6.2-32afd9d6c2a8af81b347ce1611e41afc4840396e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-ac01b2bb55415b89e4b34b32a719d81962c096dc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-1793cca5ef2cd077b9367cc046d5272c6aae236f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4-a429fde4c7209419308cc15311b132d556a3a43e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Favorite-2.6.2-ef415283973de9b16cb5de99b1c6b257913bfc1a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/androidapp/app/build/intermediates/pre-dexed/debug/libapshare-444b122ae5358d3f6b73e9cccddcd2477e1f3f17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
